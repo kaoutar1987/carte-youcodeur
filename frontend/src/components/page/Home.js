@@ -32,7 +32,6 @@ const Home = () => {
               <th scope="col">Email</th>
               <th scope="col"> address</th>
               <th scope="col">phone</th>
-              <th scope="col">password</th>
               <th>Action</th>
             </tr>
           </thead>
@@ -45,7 +44,7 @@ const Home = () => {
                 <td>{user.email}</td>
                 <td>{user.address}</td>
                 <td>{user.phone}</td>
-                <td>{user.password}</td>
+               
 
                 <td>
                   <Link class="btn btn-primary mr-2" to={`/users/${user.id}`}>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import Home from './components/page/Home';
 import About from './components/page/About';
 import login from './components/page/Login';
